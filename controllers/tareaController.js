@@ -1,7 +1,7 @@
 const Proyecto = require("../models/Proyecto");
 const Tarea = require("../models/Tarea");
 const { validationResult } = require("express-validator");
-const nodemon = require("nodemon");
+//const nodemon = require("nodemon");
 
 exports.listarTareas = async (req, res) => {
   try {
